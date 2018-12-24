@@ -1,4 +1,4 @@
-# cloudinary-export-csv-list
+# cloudinary export csv list
 Export and download list of all stored resources on Cloudinary as CSV file.
 
 ![cloudinary export csv list
