@@ -1,4 +1,5 @@
-# cloudinary export csv list
+# Cloudinary Export CSV List
+
 Export and download list of all stored resources on Cloudinary as CSV file.
 
 ![cloudinary export csv list
@@ -22,3 +23,16 @@ Export and download list of all stored resources on Cloudinary as CSV file.
 | secure_url | https://res.cloudinary.com/[CLOUD_NAME]/image/upload/[V]/sample.jpg |
 
 Blog: [Cloudinary Export All Assets Csv List](https://atakanau.blogspot.com/2018/12/cloudinary-yuklu-tum-dosyalar-listeleme.html)
+
+### Changelog
+
+#### Version 2.0.0 (January 2026)
+- Improved pagination and data fetching: Enhanced handling of large accounts with more efficient API calls and better rate limit resilience.
+- Better CSV column consistency: Automatically normalizes columns across resource types (image, video, raw) for a cleaner, more uniform output.
+- Updated authentication and API endpoint usage: Switched to recommended practices for secure API access.
+- Added error handling and logging: Basic checks for API errors and invalid responses to prevent silent failures.
+- Code refactoring and cleanup: Modernized PHP code structure, removed deprecated functions, and added comments for easier maintenance.
+- Filename update: Default export filename now reflects the current date or version for better organization.
+
+#### Version 1.0.0 (December 2018)
+- Initial release (legacy).
